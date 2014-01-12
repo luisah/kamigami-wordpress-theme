@@ -1,0 +1,762 @@
+/*
+Theme Name: Kamigami
+Description: Theme for Kamigami
+Author: Luisa Hurtado
+Author URI: http://luisadesign.com/
+Template: responsive
+Version: 1.0
+
+ * @license
+ * MyFonts Webfont Build ID 2594645, 2013-07-03T22:07:56-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Codename Coder Free 4F Bold by 4th february
+ * URL: http://www.myfonts.com/fonts/4thfebruary/codename-coder-4f/bold/
+ * Copyright: &#x00A9; 2009 by Sergiy S. Tkachenko / 4th february (foundry4feb@gmail.com).&#x000D;&#x000A;All rights reserved. This font software is the property of Sergiy S. Tkachenko (Kremenchuk, Ukraine). You may not reproduce, modify, adapt, translate, alter nor cr
+ * Licensed pageviews: Unlimited
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2594645
+ * 
+ * © 2013 MyFonts Inc
+*/
+@import url("../responsive/style.css");
+@import url(http://fonts.googleapis.com/css?family=Ropa+Sans);
+@font-face {font-family: 'CodenameCoderFree4F-Bold';src: url('css/webfonts/279755_0_0.eot');src: url('css/webfonts/279755_0_0.eot?#iefix') format('embedded-opentype'),url('css/webfonts/279755_0_0.woff') format('woff'),url('css/webfonts/279755_0_0.ttf') format('truetype');}
+
+
+/* =Fixed Width
+-------------------------------------------------------- */
+#container {
+    width: 1028px!important;
+}
+ 
+.grid,
+.menu ul, 
+.menu li, 
+.footer-menu li, 
+.sub-header-menu li {
+    float: left!important;
+}
+
+.grid-right {
+    float: right!important;
+}
+ 
+.top-menu {
+    float: right!important;
+}
+ 
+#logo {
+    float: left!important;
+}
+ 
+.tinynav {
+    display: none!important;
+}
+ 
+.sb-holder {
+    display: none!important;
+}
+ 
+.menu {
+    display: block!important;
+}
+ 
+#featured p {
+    font-size: 18px!important;
+    line-height: 27px!important;
+}
+ 
+.featured-title {
+    font-size: 60px!important;
+}
+ 
+.featured-subtitle {
+    font-size: 2.25em!important;
+}
+ 
+.call-to-action a.button {
+    font-size: 24px!important;
+    padding: 15px 35px!important;
+}
+ 
+.top-widget {
+    float: right!important;
+}
+ 
+.top-widget area,
+.top-widget select,
+.top-widget textarea,
+.top-widget input[type="text"], 
+.top-widget input[type="password"] {
+    width: auto!important;
+}
+ 
+.widget-title,
+.widget-title-home h3 {
+    font-size: 24px!important;
+    height: 23px!important;
+    line-height: 23px!important;
+    text-align: left!important;
+}
+ 
+.main-nav #responsive_current_menu_item {
+    display: none!important;
+}
+ 
+.main-nav .menu {
+    top: 0;
+}
+ 
+.main-nav .menu a {
+    font-weight: 700!important;
+}
+ 
+.main-nav .menu li a {
+    color: #fff;
+    border: none;
+}
+ 
+.main-nav .menu li.current_page_item,
+.menu .current_page_item a,
+.menu .current-menu-item a,
+.main-nav .menu li {
+    background-color: transparent;
+}
+ 
+.js .main-nav .menu li a:hover,
+.js .main-nav .menu li li a:hover {
+    background-color: #808080;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#808080),to(#363636));
+    background-image: -webkit-linear-gradient(top,#808080,#363636);
+    background-image: -moz-linear-gradient(top,#808080,#363636);
+    background-image: -ms-linear-gradient(top,#808080,#363636);
+    background-image: -o-linear-gradient(top,#808080,#363636);
+    background-image: linear-gradient(top,#808080,#363636);
+    color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#808080,endColorstr=#363636);
+}
+
+/* =Base
+-------------------------------------------------------------- */
+body {
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background: white;
+  color: #000;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 14px;
+  font-smoothing: antialiased;
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+}
+
+/* =Globals
+-------------------------------------------------------------- */
+.home #wrapper {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  clear: both;
+  margin: 20px auto 20px auto;
+  padding: 0;
+  position: relative;
+}
+
+#wrapper {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  background-color: rgba(255,255,255,0.9);
+  border: none;
+  border-radius: 0;
+  clear: both;
+  margin: 20px auto 20px auto;
+  padding: 0 40px 40px 40px;
+  position: relative;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 1028px;
+  padding: 0px;
+}
+
+#footer {
+  clear: both;
+  margin: 0 auto;
+  max-width: 1028px;
+  padding: 0;
+}
+
+/* =Content
+-------------------------------------------------------------- */
+#content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* =Typography
+-------------------------------------------------------------- */
+.ropa-sans {
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+.codename {
+	font-family: 'CodenameCoderFree4F-Bold', sans-serif;
+}
+
+.main-nav {
+	font-family: 'CodenameCoderFree4F-Bold', sans-serif;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,0.4);
+}
+
+/* =Headings
+-------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-weight: normal;
+	line-height: 1.0em;
+	word-wrap: break-word;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 22px;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+h6 {
+  	font-size: 40px;
+	margin-bottom: 22px;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+/* =Links
+-------------------------------------------------------------- */
+a {
+  color: #00ccb8;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #00ccb8;
+  outline: 0;
+  text-decoration: none;
+}
+
+::selection {
+  background: #999999;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+#logo {
+  float: none !important;
+	padding: 70px 0 0 0;
+	clear: both;
+	margin: 0 auto;
+	width: 222px;
+}
+
+.menu-overlay {
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 99999;
+	display: none;
+}
+
+.home .menu-overlay {
+	display: block;
+}
+
+/* =Top Menu
+-------------------------------------------------------------- */
+.top-menu {
+  float: left !important;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.top-menu li a {
+  border-left: none;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.top-menu > li:first-child > a {
+  border-left: none;
+}
+
+.top-menu li a:hover {
+  color: white;
+}
+
+#menu-icon {
+	float: right;
+	background-color: rgba(0,0,0,0.4);
+	padding: 12px;
+	cursor: pointer;
+}
+
+/* =Header Menu (Primary)
+-------------------------------------------------------------- */
+.menu {
+  background-color: transparent;
+  background-image: none;
+  clear: both;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#585858, endColorstr=#3d3d3d);
+  margin: 0 auto;
+}
+
+.main-nav {
+  clear: both;
+  position: relative;
+}
+
+.menu a {
+  border-left: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 40px;
+  font-weight: normal !important;
+  height: 58px;
+  width: 240px;
+  line-height: 45px;
+  margin: 0;
+  padding: 12px 0 0 0;
+  position: relative;
+  text-decoration: none;
+  text-shadow: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.menu a:hover {
+  background-color: rgba(54,166,207,0.8) !important;
+  background-image: none !important;
+  color: #ffffff;
+  filter: none;
+}
+
+.menu li {
+  border: 0;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 5;
+  width: 240px;
+  height: 70px;
+}
+
+.main-nav .menu li.current_page_item,
+.menu .current_page_item a,
+.menu .current-menu-item a {
+    background-color: rgba(54,166,207,0.8);
+}
+
+.main-menu-container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* =Social Icons
+-------------------------------------------------------------- */
+#header .social-icons {
+  list-style: none;
+  line-height: normal;
+  padding: 0;
+  margin: 64px 0 4px 0;
+  text-align: center;
+}
+
+#header .yelp-icon,
+#header .vimeo-icon,
+#header .youtube-icon,
+#header .twitter-icon,
+#header .facebook-icon,
+#header .linkedin-icon,
+#header .rss-feed-icon,
+#header .instagram-icon,
+#header .pinterest-icon,
+#header .foursquare-icon,
+#header .google-plus-icon,
+#header .stumble-upon-icon {
+  display: inline;
+  margin: 1px;
+  padding-left: 3px;
+}
+
+/* =Sub-Header Menu
+-------------------------------------------------------------- */
+.sub-header-menu {
+	background-color: transparent;
+	border: none;
+	border-top: none;
+	clear: both;
+	margin: 0 auto 44px auto;
+	width: 137px;
+}
+
+.sub-header-menu li {
+	border: 0;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0 15px 0 0;
+	position: relative;
+	z-index: 5;
+}
+
+.sub-header-menu li:last-child {
+	padding: 0;
+}
+
+.sub-header-menu a {
+	border-left: none;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	height: 35px;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.sub-header-menu a:hover {
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-color: transparent;
+	background-clip: padding-box;
+}
+
+.sub-header-menu .current_page_item a, .sub-header-menu .current-menu-item a {
+	background-color: transparent;
+}
+
+#hide {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 52px;
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+#footer {
+  font-size: 11px;
+  line-height: 1.5em;
+  color: white;
+}
+
+#footer a {
+  color: white;
+  font-weight: 400;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#footer .scroll-top a {
+  color: black;
+}
+
+/* =Post
+-------------------------------------------------------------- */
+.single .post p:first-child {
+	margin-top: 0;
+}
+
+/* =Post Thumbnails 
+-------------------------------------------------------------- */
+.single img.wp-post-image,
+.single img.attachment-full,
+.single img.attachment-large,
+.single img.attachment-medium,
+.single img.attachment-thumbnail {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+
+/* =Characters single
+-------------------------------------------------------------- */
+.single .category-characters .post-entry {
+	border: 1px solid black;
+	padding: 20px;
+	width: 700px;
+	margin: 100px auto 0 auto;
+}
+
+.single .category-characters #character-image img {
+	margin-top: -50px;
+	width: 100px;
+}
+
+.single .category-characters #character-image h1 {
+	padding: 15px 0 0 120px;
+	margin-bottom: 10px;
+}
+
+.single .category-characters #character-content {
+	font-size: 17px;
+	line-height: 24px;
+	clear: both;
+	padding-top: 15px;
+}
+
+.single .category-characters .navigation .next, .category-characters .navigation .previous {
+	top: 280px;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+.navigation {
+	color: white;
+	display: block;
+	font-size: 20px;
+	height: 28px;
+	line-height: 28px;
+	margin: 20px 0;
+	padding: 0 5px;
+}
+
+.navigation a {
+  	color: white;
+	padding: 0 10px;
+	font-size: 40px;
+	line-height: 59px;
+}
+
+.navigation a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.navigation .next {
+	position: absolute;
+	right: 0;
+	top: 307px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.navigation .previous {
+  	position: absolute;
+	left: 0;
+	top: 307px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+/* =Info Boxes
+-------------------------------------------------------------- */
+.address {
+   background-color: transparent;
+   border: none;
+   color: #212121;
+}
+
+/* =WooCommerce
+-------------------------------------------------------------- */
+.woocommerce-result-count {
+	display: none;
+}
+
+.woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3 {
+	font-family: 'Ropa Sans', sans-serif;
+	padding: .5em 0;
+	margin: 0;
+	font-size: 18px !important;
+	color: #00ccb8;
+	text-transform: uppercase;
+}
+
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+	color: #000000;
+	font-weight: normal;
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 18px;
+}
+
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
+	font-size: 18px !important;
+	margin: 0 !important;
+	line-height: 1em !important;
+	cursor: pointer !important;
+	position: relative !important;
+	overflow: visible !important;
+	padding: 9px 17px !important;
+	text-decoration: none !important;
+	font-family: 'Ropa Sans', sans-serif !important;
+	font-weight: normal !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	left: auto !important;
+	color: white !important;
+	text-shadow: none !important;
+	border: none !important;
+	background: #00ccb8 !important;
+	white-space: nowrap !important;
+	display: inline-block !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.woocommerce .woocommerce-breadcrumb a, .woocommerce-page .woocommerce-breadcrumb a {
+	color: #00ccb8 !important;
+}
+
+.woocommerce a.added_to_cart, .woocommerce-page a.added_to_cart {
+	padding-top: .5em !important;
+	white-space: nowrap !important;
+	display: inline-block !important;
+	padding-left: 27px !important;
+}
+
+.woocommerce .related ul.products li.product, .woocommerce .related ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .upsells.products ul.products li.product, .woocommerce-page .upsells.products ul li.product {
+	width: 22% !important;
+}
+
+.woocommerce .quantity .plus, .woocommerce .quantity .minus, .woocommerce #content .quantity .plus, .woocommerce #content .quantity .minus, .woocommerce-page .quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page #content .quantity .plus, .woocommerce-page #content .quantity .minus {
+	display: block;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	vertical-align: text-top;
+	width: 20px;
+	height: 18px !important;
+	text-decoration: none;
+	overflow: visible;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+	line-height: 13px;
+	font-size: 12px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #5e5e5e;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	border: 1px solid #c7c0c7;
+	background: #f7f6f7;
+	background: -webkit-gradient(linear,left top,left bottom,from(#f7f6f7),to(#dfdbdf));
+	background: -webkit-linear-gradient(#f7f6f7,#dfdbdf);
+	background: -moz-linear-gradient(center top,#f7f6f7 0%,#dfdbdf 100%);
+	background: -moz-gradient(center top,#f7f6f7 0%,#dfdbdf 100%);
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.075), inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.075), inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.1);
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.075), inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.woocommerce .quantity input.qty, .woocommerce #content .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce-page #content .quantity input.qty {
+	width: 40px;
+	height: 34px !important;
+	float: left;
+	padding: 0;
+	text-align: center;
+	border: 1px solid #c7c0c7;
+	border-right: 0;
+	-webkit-border-top-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius-topright: 0;
+	-moz-border-radius-bottomright: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	box-shadow: inset 0 0 2px 0 #f7f6f7;
+	-webkit-box-shadow: inset 0 0 2px 0 #f7f6f7;
+	-moz-box-shadow: inset 0 0 2px 0 #f7f6f7;
+	font-weight: bold;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.woocommerce div.product div.images img, .woocommerce #content div.product div.images img, .woocommerce-page div.product div.images img, .woocommerce-page #content div.product div.images img {
+	display: block;
+	width: 100%;
+	height: auto;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+	-webkit-transition: all ease-in-out .2s;
+	-moz-transition: all ease-in-out .2s;
+	-o-transition: all ease-in-out .2s;
+	transition: all ease-in-out .2s;
+	margin-top: 0;
+}
+
+.woocommerce div.product span.price, .woocommerce div.product p.price, .woocommerce #content div.product span.price, .woocommerce #content div.product p.price, .woocommerce-page div.product span.price, .woocommerce-page div.product p.price, .woocommerce-page #content div.product span.price, .woocommerce-page #content div.product p.price {
+	color: #000000;
+	font-size: 25px !important;
+	margin-top: 7px !important;
+}
+
+.woocommerce div.product .product_title, .woocommerce #content div.product .product_title, .woocommerce-page div.product .product_title, .woocommerce-page #content div.product .product_title {
+	clear: none;
+	margin-top: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.post-type-archive-product h1 {
+	font-family: 'CodenameCoderFree4F-Bold', sans-serif;
+}
+
+/* =jCarousel
+-------------------------------------------------------------- */
+.jcarousel-scroll {
+	font-size: 27px;
+}
+
+.jcarousel-scroll a {
+	color: white;
+	padding: 25px 20px;
+}
+
+#mycarousel-prev {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#mycarousel-next {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
